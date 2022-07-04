@@ -6,7 +6,7 @@ export default defineConfig({
     viewportHeight: 1200,
     viewportWidth: 1500,
     defaultCommandTimeout: 10000,
-    requestTimeout: 15000,
+    requestTimeout: 20000,
     waitForAnimations: true,
     specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
     setupNodeEvents(on, config) {
