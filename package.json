@@ -1,0 +1,31 @@
+{
+  "name": "dazn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuBoca92/dazn.git"
+  },
+  "author": "Ebonom Mfam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuBoca92/dazn/issues"
+  },
+  "homepage": "https://github.com/ManuBoca92/dazn#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.30.4",
+    "cypress": "^10.3.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
